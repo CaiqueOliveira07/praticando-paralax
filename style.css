@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: 'liberdade';
+    src: url('fonte/go3v2.ttf') format('truetype') ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'texto';
+    src: url('fonte/Karate.ttf') format('truetype') ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+:root
+{
+--fonte-inicio:'liberdade', Times, serif;
+--fonte-textos:'texto', Tahoma, Verdana, sans-serif;
+
+
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+width: 100vw;
+height: 100vh;
+
+}
+::-webkit-scrollbar{
+width: 0vw;
+height: 0vh;
+
+}
+ 
+body{
+background:  url(imagens/rua-japao.jpg) fixed center;
+margin: 0px;
+padding: 0px;
+width: 100vw;
+height: 100vh;
+
+
+}
+
+
+header{
+background: url(imagens/fuji.jpg) center;
+display: block;
+width: 100vw;
+height: 5cm;
+text-align: center;
+padding: 0px;
+margin-top: 45px;
+ 
+}
+
+header > h1 {
+font-family:var(--fonte-inicio);
+line-height: 50%;
+padding: 2cm;
+}
+
+header > p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    margin-top: -40px;
+}
+
+main{
+    position: relative;
+    
+    }
+
+nav#icones{
+background: url(imagens/link.jpg) center no-repeat ;
+line-height: 50%;
+width: 100vw;
+height: 2cm;
+margin-top: 1cm;
+text-align: center;
+
+}
+
+nav#icones > a {
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: larger;
+color: white;
+margin: 10px;
+line-height: 80px;
+}
+
+nav#icones > a > img {
+    width: 70px;
+    height: 40px;
+    padding: 0%;
+    margin: 0%;
+   
+}
+
+div#hliberdade > h1 {
+    font-family: var(--fonte-textos);
+   font-style: normal;
+
+}
+
+div#historia > p 
+{
+color: white;
+text-align: center;
+display: block;
+
+}
+
+
+div#hliberdade{
+color: white;
+font-size: larger;
+width: 50vw;
+height: auto;
+margin-left: 25%;
+margin-top: 100px;
+
+}
+
+div#role{
+text-align: center;
+color: white;
+font-size: larger;
+width: 50vw;
+height: auto;
+margin-top: 1cm;
+margin-left: 25%;
+margin-bottom: 1cm;
+}
+
+div#role > p {
+background-color: rgba(255, 255, 255, 0.319);
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: large;
+margin-bottom: 5px;
+padding: 10px;
+}
+
+
+div#fotos {
+background-position: center;
+    margin-left: 25%;
+    
+}
+
+div#fotos > img {
+background-position: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+   
+}
+
+
+div#culinariayaki{
+  background: url(imagens/bfeijaopequena.jpg) center no-repeat ;
+  background-size: cover;
+    width: 50vw;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 100px;
+    text-align: center;
+   padding: 20px;
+   font-size: large;
+   color: white;
+    
+    
+
+}
+div#culinariatempura{
+    background: url(imagens/tempurafundo.jpg) center no-repeat ;
+    background-size: cover;
+      width: 50vw;
+      height: auto;
+      margin-left: 25%;
+      margin-top: 100px;
+      text-align: center;
+      padding: 20px;
+      color: rgb(255, 255, 255);
+      font-size: large;
+      
+  
+  }
+
+div#culinaria > h1 {
+text-align: center;
+
+}
+
+
+div#culinaria > img{
+    width: 200px;
+    height: 200px;
+    margin-top: 1cm;
+    margin-left: 0.7cm;
+   text-align: left;
+
+}
+
+div#culinaria > p {
+   
+    margin: 10px;
+}
+
+div#culinaria > h2 {
+    text-align: center;
+}
+
+
+
+footer{
+   margin-top: 1cm;
+    color: white;   
+    text-align: center;
+    padding: 0.3px;
+      
+}
+
+
+
+   
+
